@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+</head>
+<body>
+    <main>
+        <div class="profile-header">
+            <div class="image">
+        <img  src="/images-1/HCMm2 (2).png" alt="yh thats me">
+
+            </div>
+            <div class="profile-body">
+            <h2 class="name">Habeebah Adesola</h2>
+            <p>Abeokuta, Ogun state</p>
+           <p>Email marketing expert and software developer</p> 
+           <div class="btns">
+           <button class="message">Message</button>
+           <button class="follow">Follow</button>
+           </div>
+          
+            <hr>
+           <h2 class="skills">SKILLS</h2>
+            <ul class="list">
+                <li>UI/UX</li>
+                <li>Frontend Development</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Bootsrap</li>
+            </ul><br>
+            <P> @ Habeebah Adesola 2025</P>
+        </div>
+    </main>
+    <style>
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 60px;
+            border: 5px solid;
+            border-color: rgb(70, 10, 70);
+            padding: 3px;
+            margin: 20px;
+        }
+        .image{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        body{
+            height: 100vh;
+            font-family: Roboto;
+            background-color:rgb(173, 110, 173);
+        }  
+        main{
+             border-radius: 5px;
+             display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .profile-header{
+            width: 300px;
+            background-color: white;
+            color:rgb(70, 10, 70) ;
+        }
+        .profile-body{
+            width: 300px;
+            height: 300px;
+            background-color:rgb(70, 10, 70) ;
+            color: white;
+            align-content: center;
+            justify-items: center;
+            flex-direction: column;
+            
+        }
+        .name{
+            /* margin-bottom: 50px; */
+        }
+        .btns{
+            text-align: center;
+        }
+        .message{
+            background-color: rgb(70, 10, 70);
+            color:white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px;
+            border-color:rgb(173, 110, 173) ;
+            /* align-items: center;
+            justify-content: center;
+            display: flex; */
+        }
+        .follow{
+            background-color: rgb(70, 10, 70);
+            color:white ;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin:5px;
+            border-color:rgb(173, 110, 173) ;
+            /* align-items: center;
+            justify-content: center;
+            display: flex; */
+        }
+        .message:hover{
+            background-color: rgb(173, 110, 173);
+            color: rgb(70, 10, 70) ;
+            cursor: pointer;
+        }
+        .follow:hover{
+             background-color: white;
+            color: rgb(70, 10, 70) ;
+            cursor: pointer;
+        }
+        hr{
+            height: 0px;
+            width: 250px;
+        }
+        .skills{
+            line-height: 5px;
+        }
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px 30px;
+            margin-top: 10px;
+
+        }
+
+    </style>
+</body>
+</html>
