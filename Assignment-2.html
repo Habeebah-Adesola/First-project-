@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flier</title>
+</head>
+<body>
+    <main>
+        <div class="SEDANS">
+            <img class="image" src="/FGMS/images/icon-sedans.svg" alt="">
+            <h2 class="header">SEDANS</h2><br>
+            <p class="paragraph">Choose a sedan for its affordability and excellence fuel economy. Ideal for arising in the city or on your next road trip.</p><br>
+            <button class="sedan-button">Learn more</button>
+        </div>
+        <div class="SUV">
+            <img class="image" src="/FGMS/images/icon-suvs.svg" alt="">
+        <h2 class="header">SUVS</h2><br>
+        <p class="paragraph">Take an SUV for its spacious interior, power, and versatility.Perfect for your next family vacation and off road advenrures.</p><br>
+        <button class="suv-button">Learn More</button>
+        </div>
+    <div class="LUXURY">
+    <img class="image" src="/FGMS/images/icon-luxury.svg" alt="">
+    <h2 class="header">LUXURY</h2><br>
+    <p class="paragraph">Cruise is the best car brands without the bloated prices. Enjoy the enhanced comfort at a luxury renyal and arrive in style.</p><br>
+    <button class="luxury-button">Learn More</button>
+    </div>
+    </main>
+</body>
+<style>
+    body{
+        background-color: white;
+        align-items:center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+    main{
+        background-color: purple;
+        text-align:left;
+        width: 600px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    .SEDANS{
+        background-color: hsl(31, 77%, 52%);
+         color: white;
+         padding-left: 35px;
+         padding-right: 35px;
+    }
+    .SUV{
+        background-color: hsl(184, 100%, 22%);
+         color: white;
+         padding-left: 35px;
+         padding-right: 35px; 
+    }
+    .LUXURY{
+        background-color: hsl(179, 100%, 13%);
+         color: white;
+         padding-left: 35px;
+         padding-right: 35px; 
+    }
+
+    .sedan-button{
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        border-radius: 17px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-color: white;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    .suv-button{
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        border: solid;
+        border-radius: 17px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-color: white;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    .luxury-button{
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        border-radius: 17px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-color: white;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    .paragraph{
+        margin:0;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    .image{
+        margin-top: 20px;
+    }
+    
+    @media(max-width:375px){
+        main{
+            font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+            font-Weight: 400px;
+        }
+        .suv-button{
+        background-color: white;
+        color: hsl(31, 77%, 52%);
+        }
+        .sedan-button{
+            background-color: white;
+           color:  hsl(184, 100%, 22%);
+        }
+         .luxury-button{
+              background-color: white;
+            color:  hsl(179, 100%, 13%);
+         }
+    @media(min-width:1440px){
+        main{
+            font-family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+            font-Weight: 700px;
+        }
+    }
+}
+</style>
+</html>
